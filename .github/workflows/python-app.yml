@@ -4,7 +4,7 @@
 name: Python application
 
 on:  
-  #push:
+  push:
   #pull_request:
   schedule:
     - cron: '*/1 * * * *'  # every minute
