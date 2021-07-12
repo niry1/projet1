@@ -5,7 +5,7 @@ name: Python application test
 
 on:  
   schedule:
-    - cron: '*/1 * * * *'  # every minute
+    - cron: '*/15 * * * *'  # every minute
 
 jobs:
   build:
