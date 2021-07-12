@@ -3,7 +3,8 @@
 
 name: Python application test
 
-on:  
+on:
+  push:
   schedule:
     - cron: '*/15 * * * *'  # every minute
 
