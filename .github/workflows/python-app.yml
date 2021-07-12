@@ -4,10 +4,10 @@
 name: Python application
 
 on:  
-  #push:
-  #pull_request:
+  push:
+  pull_request:
   schedule:
-    - cron: '1 * * * *'  # every minute
+    - cron: '*/1 * * * *'  # every minute
 
 jobs:
   build:
